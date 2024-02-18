@@ -1,0 +1,18 @@
+.tickets {
+}
+
+.ticketName {
+  font-weight: bold;
+}
+
+.ticketDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.ticketProperty > :first-child {
+  font-weight: bold;
+  width: 100px;
+  display: inline-block;
+}

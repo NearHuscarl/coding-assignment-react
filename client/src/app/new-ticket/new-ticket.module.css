@@ -1,0 +1,14 @@
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+
+.ticketForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  gap: 12px;
+}
