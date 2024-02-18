@@ -12,8 +12,8 @@
     "@nestjs/platform-express": "9.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router": "^6.3.0",
-    "react-router-dom": "6.4.3",
+    "react-router": "^6.22.1",
+    "react-router-dom": "^6.22.1",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
@@ -38,9 +38,8 @@
     "@testing-library/user-event": "^14.2.0",
     "@types/jest": "28.1.8",
     "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.9",
-    "@types/react-router-dom": "5.3.3",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "5.48.2",
     "@typescript-eslint/parser": "5.48.2",
     "css-loader": "^6.4.0",
