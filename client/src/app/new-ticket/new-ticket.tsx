@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 import { createTicket } from 'client/src/api/tickets';
 import styles from './new-ticket.module.css';
 

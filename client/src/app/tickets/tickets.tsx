@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router';
 import { Ticket } from '@acme/shared-models';
 import { fetchTickets } from 'client/src/api/tickets';
 import styles from './tickets.module.css';
@@ -52,7 +53,7 @@ export function Tickets(props: TTicketsProps) {
         </select>
         <button onClick={() => navigate('/new')}>Create Ticket</button>
       </div>
-      {tickets.length === 0 && <span>...</span>}
+      {tickets.length === 0 && <span data-testid="loading">...</span>}
       <ul>
         {filteredTickets.map((t) => (
           <li key={t.id}>
